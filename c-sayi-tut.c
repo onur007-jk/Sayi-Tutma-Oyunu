@@ -128,4 +128,22 @@ printf("Su kadar hakkiniz kaldi:%d\n",--hak3sayac);
         break;
 
     } //switch sonu
+
+
+
+  if(hak1==0)
+  {
+    printf("\n 5 hakta bilemediniz , sayi suydu:%d\n",number);
+  }
+
+  if(hak2==0)
+  {
+    printf("\n 10 hakta bilemediniz , sayi suydu:%d\n",number);
+  }
+
+  if(hak3==0)
+  {
+    printf("\n 20 hakta bilemediniz , sayi suydu:%d\n",number);
+  } 
+  return 0;
 }
